@@ -1,7 +1,7 @@
 import { useLocation, useNavigate } from "react-router-dom";
 import "../styles/Sidebar.css";
 
-export default function SideBar({ darkMode, setDarkMode }) {
+export default function Sidebar({ darkMode, setDarkMode }) {
   const navigate = useNavigate();
   const location = useLocation();
 
