@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Sidebar from "./components/Sidebar";
+import SideBar from "./components/Sidebar";
 import Home from "./components/Home";
 
 import WorksPage from "./components/Works";
@@ -24,7 +24,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <div className="app">
-        <Sidebar darkMode={darkMode} setDarkMode={setDarkMode} />
+        <SideBar darkMode={darkMode} setDarkMode={setDarkMode} />
 
         <div className="main">
           <Routes>
