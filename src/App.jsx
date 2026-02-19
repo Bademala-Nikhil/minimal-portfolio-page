@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import SideBar from "./components/Sidebar";
-import Home from "./components/Home";
 
+import Sidebar from "./components/Sidebar";
 import WorksPage from "./components/Works";
 import Resume from "./components/Resume";
+import Home from "./components/Home";
 import Contact from "./components/Contact";
 
 import "./App.css";
@@ -24,7 +24,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <div className="app">
-        <SideBar darkMode={darkMode} setDarkMode={setDarkMode} />
+        <Sidebar darkMode={darkMode} setDarkMode={setDarkMode} />
 
         <div className="main">
           <Routes>
