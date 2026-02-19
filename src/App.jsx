@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Sidebar from "./components/Sidebar";
-import Home from "./pages/Home";
+import Home from "./Pages/Home";
 import WorksPage from "./components/Works";
-import Resume from "./pages/Resume";
+import Resume from "./components/Resume";
 import Contact from "./pages/Contact";
 
 import "./App.css";
