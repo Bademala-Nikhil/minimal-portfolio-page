@@ -2,10 +2,11 @@ import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Sidebar from "./components/Sidebar";
-import Home from "./Pages/Home";
+import Home from "./components/Home";
+
 import WorksPage from "./components/Works";
 import Resume from "./components/Resume";
-import Contact from "./pages/Contact";
+import Contact from "./components/Contact";
 
 import "./App.css";
 

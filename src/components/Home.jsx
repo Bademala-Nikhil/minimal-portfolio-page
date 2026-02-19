@@ -1,5 +1,5 @@
-import Content from "../components/Content";
-import Gallery from "../components/Gallery";
+import Content from "./Content";
+import Gallery from "./Gallery";
 
 export default function Home() {
   return (
