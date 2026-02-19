@@ -1,0 +1,58 @@
+.resume {
+  width: 1080px;
+  margin-top: 115px;
+}
+
+/* TITLE */
+.resume-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* SUBTITLE */
+.resume-sub {
+  width: 676px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 60px;
+}
+
+/* TIMELINE */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* ROW */
+.row {
+  display: flex;
+  gap: 60px;
+}
+
+/* YEAR */
+.year {
+  width: 140px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* DETAILS */
+.details h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.company {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+/* LIST */
+.details ul {
+  padding-left: 18px;
+  color: #555;
+  line-height: 1.6;
+}

@@ -1,0 +1,58 @@
+.works {
+  width: 1080px;
+  margin-top: 115px;
+}
+
+/* TITLE */
+.works-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* SUB TEXT */
+.works-sub {
+  width: 508px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* MENU */
+.works-menu {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 40px;
+
+  font-size: 14px;
+  color: #888;
+}
+
+.works-menu span {
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+
+.works-menu span.active {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+/* GRID */
+.works-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* CARD */
+.work-card {
+  width: 100%;
+  height: 246px;
+  overflow: hidden;
+}
+
+.work-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

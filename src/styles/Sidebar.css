@@ -1,0 +1,56 @@
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  background: #f5f1ee;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* LOGO */
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* MENU */
+.menu {
+  margin-top: -220px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+
+/* BUTTON STYLE */
+.menu button {
+  background: none;
+  border: none;
+  text-align: left;
+  font-size: 18px;
+  color: #888;
+  cursor: pointer;
+}
+
+.menu button:hover {
+  color: black;
+}
+
+/* ACTIVE STATE */
+.menu button.active {
+  color: black;
+  font-weight: bold;
+}
+
+/* DARK TOGGLE */
+.dark-toggle {
+  font-size: 14px;
+  cursor: pointer;
+}

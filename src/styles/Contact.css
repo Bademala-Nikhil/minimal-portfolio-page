@@ -1,0 +1,78 @@
+.contact {
+  width: 1080px;
+  margin-top: 115px;
+}
+
+/* TITLE */
+.contact-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* SUBTITLE */
+.contact-sub {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 60px;
+}
+
+/* FORM */
+.contact-form {
+  width: 579px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ROW */
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+/* FIELD */
+.field {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+/* SMALL FIELD */
+.field.small {
+  max-width: 180px;
+}
+
+/* LABEL */
+.field label {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+/* INPUT */
+.field input,
+.field select,
+.field textarea {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #ddd;
+  background: #f3eee9;
+  font-size: 14px;
+}
+
+/* TEXTAREA */
+.field textarea {
+  height: 200px;
+  resize: none;
+}
+
+/* BUTTON */
+.send-btn {
+  width: 164px;
+  height: 55px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}

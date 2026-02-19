@@ -1,0 +1,98 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #fafafa;
+}
+
+/* APP LAYOUT */
+.app {
+  display: flex;
+}
+
+/* RIGHT SIDE CONTENT */
+.main {
+  margin-left: 260px; /* sidebar width */
+  width: calc(100% - 260px);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* HEADER */
+.header {
+  width: 1080px;
+  height: 60px;
+  margin-top: 20px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .main {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .header {
+    width: 90%;
+  }
+}
+
+/* LIGHT MODE (default) */
+body {
+  background: #fafafa;
+  color: #111;
+  transition: 0.3s;
+}
+
+/* DARK MODE */
+body.dark {
+  background: #121212;
+  color: white;
+}
+
+/* SIDEBAR DARK */
+body.dark .sidebar {
+  background: #1e1e1e;
+  border-right: 1px solid #333;
+}
+
+/* MENU TEXT */
+body.dark .menu button {
+  color: #bbb;
+}
+
+body.dark .menu button.active {
+  color: white;
+}
+
+/* SIDEBAR LOGO */
+body.dark .logo {
+  color: white;
+}
+
+/* CONTENT TEXT */
+body.dark .title {
+  color: white;
+}
+
+body.dark .desc,
+body.dark .desc2 {
+  color: #ccc;
+}
+
+/* DARK TOGGLE TEXT */
+body.dark .dark-toggle {
+  color: white;
+}
+
+/* GALLERY OVERLAY */
+body.dark .overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
